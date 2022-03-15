@@ -4,7 +4,7 @@ import {abi} from "./escrowabi.js"
 
 function configureContract (){
 
-  const escrowAddress = "0x616d499854214fed539f091694b6e835b5f63e48";
+  const escrowAddress = "0x1906ae8FEb2d8b41f954DfC4a6a6e4D8ddc95d56";
   if (!window.ethereum){
     throw new Error("No crypto wallet found. Please install it.");
   }
